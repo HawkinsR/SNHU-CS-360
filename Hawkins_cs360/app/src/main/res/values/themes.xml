@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Hawkins_cs360" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_variant</item>
+        
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        
+        <!-- Neutral Colors -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/primary_variant</item>
+    </style>
+
+    <style name="Theme.SimpleWeight" parent="Base.Theme.Hawkins_cs360" />
+
+    <!-- Custom Button Styles -->
+    <style name="AppButton" parent="Widget.Material3.Button">
+        <item name="android:insetTop">4dp</item>
+        <item name="android:insetBottom">4dp</item>
+    </style>
+
+    <style name="AppButton.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+    </style>
+</resources>
